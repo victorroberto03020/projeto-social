@@ -13,10 +13,14 @@ html, body {
     background-color: black;
 }
 
+body {
+    background: url('../estilos/imagens/fundo-madeira.jpg') top center;
+    background-size: cover;
+}
+
 main {
     position: relative;
     height: 100vh;
-    background-color: blue;
 }
 
 section#telefone {
@@ -25,7 +29,7 @@ section#telefone {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    height: 500px;
-    width: 500px;
-    background-color: red;
+    height: 627px;
+    width: 311px;
+    background: url('../estilos/imagens/frame-iphone.png') no-repeat;
 }
